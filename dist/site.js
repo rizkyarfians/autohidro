@@ -1,6 +1,6 @@
 const menuButton = document.querySelector('.menu');
 const navigation = document.querySelector('#navigasi');
-const mobile = window.matchMedia('(max-width: 860px)');
+const mobile = window.matchMedia('(max-width: 1020px)');
 
 function closeMenu() {
   menuButton.setAttribute('aria-expanded', 'false');
